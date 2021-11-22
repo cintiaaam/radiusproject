@@ -20,10 +20,12 @@
     <div class="profile-box">
       <div class="flex-sizing">
         <button class="button2"><a href="modal-dialog.html" onClick="return popitup('modal-dialog')">Edit Profile</a></button>
-          <img class="avatar-img" src="/static/img/avat{{ profile.avatar }}.png" alt="alt text" style="align-content: center">
+          <img class="avatar-img" src="/static/img/avat{{ profile.avatar }}.png" alt="alt text">
         <p style="font-size: 20px; margin-top: 0px; text-align: center;"><strong>{{ user.username }}</strong></p>
           <p style="font-size: 14px; margin-top: 0px; font-style: italic; text-align: center;">This user hasn't enter a bio</p>
+        <div class="profile-radius">
         {{ profile.radius }}
+          </div>
         <div class="flex">
           <span class="pill1"><a style="">Healthy</a></span>
           <span class="pill2"><a style="">Sports</a></span>

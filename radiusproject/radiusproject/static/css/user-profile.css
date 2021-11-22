@@ -137,7 +137,7 @@
     height: 200px;
     width: 200px;
     display: flex;
-    padding-left: 600px;
+background-color: #570808;
 
 }
 
@@ -166,5 +166,9 @@
     padding-left: 40px;
     font-family: "DM Sans";
 
+}
+
+.profile-radius {
+    visibility: hidden;
 }
 
